@@ -1,0 +1,29 @@
+{
+    "geode": "4.5.0",
+    "gd": {
+        "win": "2.2074",
+        "android": "2.2074",
+        "mac": "2.2074",
+        "ios": "2.2074"
+    },
+    "version": "v0.1.0",
+    "id": "yourname.level-architect",
+    "name": "Level Architect",
+    "developer": "yourname",
+    "description": "Procedurally generates full levels from settings: layout, auto-decoration, and stitched template chunks, right inside the editor.",
+    "tags": ["editor", "utility"],
+    "dependencies": [
+        {
+            "id": "alphalaneous.editortab_api",
+            "version": ">=1.0.0",
+            "importance": "required"
+        }
+    ],
+    "resources": {
+        "spritesheets": {
+            "ArchitectSprites": [
+                "resources/spritesheets/architect/*.png"
+            ]
+        }
+    }
+}
